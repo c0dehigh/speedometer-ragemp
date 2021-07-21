@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speedo By HIGH</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="main">
+       <div class="icons">
+        <h3 class="only font" >GEAR <span id="gear" class="font">2</span> </h3>
+        <h3 class=" speed white font" >SPEED <span id="speed" class="font">2</span> </h3>
+        <i class="fa fa-car" aria-hidden="true"></i>
+        <h3 class="only font" > <span id="health" class="font"></span> </h3>
+       </div>
+       <progress id="file" max="190" value=""></progress> 
+    </div>
+    <script src="./car.js"></script>
+    <script>
+        function car(gear,speed,fclass){
+            var classs = ["Compacts","Sedans","SUVs","Coupes","Muscle","Sports Classics","Sports","Super","Motorcycles","Off-road","Industrial","Utility","Vans","Cycles","Boats","Helicopters","Planes","Service","Emergency","Military","Commercial","Trains","Open Wheels"];
+            document.querySelector("#gear").innerText = gear
+            document.querySelector("#speed").innerText = speed
+            document.querySelector("#file").setAttribute("value",speed)
+            document.querySelector("#health").innerText = classs[fclass]
+        }
+    </script>
+</body>
+</html>
