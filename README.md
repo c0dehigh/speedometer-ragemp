@@ -1,9 +1,9 @@
 # speedometer-ragemp
+
 <img src="https://s4.uupload.ir/files/speedo_bi15.png">
 
+ragemp speedometer
 
-ragemp speedometer 
+Clean and simple Speedemoter for Rage-MP
 
-show gear speed 3*6 and also in proggbar  and in right side show your vehicle class
-
-any help Discord: HIGH#0123
+work on 1.1
